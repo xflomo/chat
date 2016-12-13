@@ -1,0 +1,27 @@
+{% extends 'MainBundle:Layout:layout.html.twig' %}
+
+{% block body %}
+
+    <div class="chat-start-container">
+        <button class="btn btn-default join-chatroom-btn">Chatraum beitreten</button>
+        <section id="banner">
+            <div class="container">
+                <div class="inner">
+                    <h1>eigener anonymer Chatraum!</h1>
+                    <p>Erstelle jetzt deinen eigenen Chatraum und chatte mit Freunden</p>
+                    <button class="btn btn-default" onclick="loadChatRoom()">Chatraum öffnen</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="loading-container">
+        <h2>Dein Chatraum wird erstellt.</h2>
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+
+{% endblock %}
+

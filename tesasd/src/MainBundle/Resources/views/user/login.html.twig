@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Image stack{% endblock %}</title>
+
+    {% block stylesheets %}
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/fontawesome/css/font-awesome.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+
+
+
+    {% block body %}
+
+
+
+        <div class="start-mask-container">
+            <div class="login-mask-container">
+                <h2>Anmelden</h2>
+                <img src="images/avatar_2x.png" class="img-responsive">
+                <div class="login-input-grp">
+
+                    <form action="{{ path('login') }}" method="post" role="form">
+                        <input type="text" id="username" placeholder="Benutzername" name="_username" class="form-control" value="{{ last_username }}" />
+                        <br>
+                        <input type="password" id="password" placeholder="Passwort" name="_password" class="form-control" />
+
+                        <button type="submit" name="loginSubmit" class="btn btn-default">Anmelden</button>
+                    </form>
+
+
+                   <h1>
+                       {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                           <p>Username: {{ app.user.username }}</p>
+                       {% endif %}
+                   </h1>
+
+
+
+                    {% if error %}
+                        <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                    {% endif %}
+
+
+                </div>
+                <p><a href="/registration">Noch kein Konto?</a></p>
+            </div>
+        </div>
+
+    {% endblock %}
+
+
+{% block javascripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+{% endblock %}
+</body>
+</html>

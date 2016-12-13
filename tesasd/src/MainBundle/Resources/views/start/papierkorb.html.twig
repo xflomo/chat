@@ -1,0 +1,58 @@
+{% extends 'MainBundle:layout:layout.html.twig' %}
+{% set menu_selected = 'papierkorb' %}
+
+{% block body %}
+        <menu type="context" id="copy-paste">
+            <li data-menuPoint="details"><i class="fa fa-info-circle" aria-hidden="true"></i> Details</li>
+            <li data-menuPoint="restore"><i class="fa fa-undo" aria-hidden="true"></i> Wiederherstellen</li>
+            <li data-menuPoint="deleteImageComplete"><i class="fa fa-trash" aria-hidden="true"></i> Löschen</li>
+        </menu>
+
+        <div class="container content-top-spacer">
+            <div class="row low-margin">
+                <!-- This is the set up of a basic gallery, your items must have the categories they belong to in a data-category
+                attribute, which starts from the value 1 and goes up from there -->
+
+                <div class="demo-gallery">
+                    <ul class="list-unstyled row low-margin">
+                        {% for file in userFiles %}
+                            <li class="col-xs-6 col-sm-4 col-md-3 low-padding">
+                                <img class="img-responsive" src="/uploads/{{ app.user.getUploadFolder }}/{{ file.urlPath|e }}/{{ file.thumbnail|e }}" contextmenu="copy-paste" imageHash="{{ file.urlPath|e }}">
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <div id="preview-template" style="display: none;">
+        <li class="dropzonePreviewTemplate dz-preview dz-file-preview col-xs-6 col-sm-4 col-md-3 low-padding">
+                <div class="dz-filename hidden"><span data-dz-name></span></div>
+                <div class="dz-size hidden" data-dz-size></div>
+                <img class="img-responsive" data-dz-thumbnail />
+            <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress></span></div>
+            <div class="dz-success-mark"><span>✔</span></div>
+
+                <div class="dz-error-mark"><span>✘</span></div>
+                <div class=""><span data-dz-errormessage></span></div>
+
+        </li>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="{{ asset('vendor/dropzone/js/dropzone.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lightgallery.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-fullscreen.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-thumbnail.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-video.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-autoplay.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-zoom.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-hash.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-pager.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/jquery.mousewheel.min.js') }}"></script>
+{% endblock %}
+

@@ -1,0 +1,385 @@
+body{
+	width: 100%;
+	height: auto;
+	font-family: 'Roboto', sans-serif;
+	background: #f0efe7;
+}
+
+a {
+    color: #666;
+}
+
+a:hover{
+    color: #4285f4;
+    text-decoration: none;
+}
+
+nav{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    top: 60px;
+    background-color: #fff;
+    border-color: #ddd;
+    z-index: 101;
+}
+
+nav input.form-control{
+    height: 33px;
+    width: 205px;
+    margin-left: 25px;
+    margin-top: 11px;
+}
+
+nav ul{
+    font-size: 16px;
+    list-style: none;
+    color: #666;
+    height: 60px;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    line-height: 60px;
+}
+
+nav li{
+    padding: 0px 25px;
+    cursor: pointer;
+    float: left;
+    height: 60px;
+}
+
+nav li.active{
+    border-bottom: 3px solid #4285f4;
+}
+
+nav li.active a{
+    color: #4285f4;
+}
+
+nav li:hover{
+    color: #4285f4;
+}
+
+header{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    top: 0px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #666;
+    border-color: #e5e5e5;
+    z-index: 101;
+}
+
+.header-menu-content{
+    height: 60px;
+    padding: 11px 0px;
+}
+
+.upload-bar{
+    font-size: 16px;
+    list-style: none;
+    color: #666;
+    font-weight: 300;
+    line-height: 38px;
+    height: 38px;
+    float: left;
+    margin-right: 55px;
+    cursor: pointer;
+}
+
+.upload-bar .fa{
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.search-bar{
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    height: 38px;
+    width: 420px;
+    padding: 8px;
+    font-size: 15px;
+    float: left;
+}
+
+.search-bar:hover{
+    border: 1px solid #b9b9b9;
+}
+
+.search-bar input{
+    width: 100%;
+    border: 0px;
+    height: 100%;
+    color: #666;
+    font-size: 15px;
+    width: 95%;
+}
+
+.search-bar .fa{
+    float: right;
+    line-height: 19px;
+    color: #666;
+}
+
+
+.search-bar input:active,
+.search-bar input:focus {
+    outline: none;
+}
+
+.profil-bar{
+    font-size: 16px;
+    list-style: none;
+    color: #666;
+    font-weight: 300;
+    line-height: 38px;
+    float: right;
+}
+
+.profil-bar img{
+    margin-right: 5px;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+}
+
+
+
+.alert{
+    z-index: 200;
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    top: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.start-mask-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 500px;
+    margin-left: -200px;
+    margin-top: -250px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.login-mask-container {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    text-align: center;
+    float: left;
+
+}
+
+.login-mask-container h2 {
+    font-weight: 300;
+    color: #333;
+    margin-top: 35px;
+    margin-bottom: 23px;
+}
+
+.login-input-grp {
+    margin-top: 25px;
+}
+
+.login-input-grp input {
+    width: 290px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    height: 38px;
+}
+
+.login-mask-container img {
+    display: inline-block;
+    border-radius: 100%;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.login-input-grp button {
+    margin-top: 30px;
+    margin-top: 27px;
+    width: 170px;
+    padding: 10px;
+}
+
+.regi-container{
+    width: 400px;
+    height: 500px;
+    float: left;
+    background-color: #6974B4;
+    text-align: center;
+
+}
+
+.regi-container input{
+    width: 315px;
+    margin: 0 auto;
+    margin-top: 22px;
+    height: 38px;
+}
+
+.regi-container h2 {
+    font-weight: 300;
+    color: #333;
+    margin-top: 35px;
+    color:  #fff;
+    margin-bottom: 50px;
+}
+
+.regi-container button {
+    margin-top: 30px;
+    margin-top: 27px;
+    width: 170px;
+    padding: 10px;
+}
+
+.content-top-spacer{
+    margin-top: 120px;
+    padding-top: 50px;
+}
+
+.demo-gallery img{
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+    margin-bottom: 10px;
+}
+
+.dz-preview img{
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+    margin-bottom: 10px;
+}
+
+.low-margin{
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.low-padding{
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: 1;
+    transform: scale(1) translate3d(0px, 0px, 0px);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-out 0ms;
+}
+
+menu[type=context] {
+    position:fixed;
+    display:none;
+    list-style:none;
+    z-index: 1000;
+    min-width: 160px;
+    padding: 10px 0;
+    margin: 2px 0 0;
+    font-size: 15px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    color: #333;
+}
+
+menu[type=context] li {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+menu[type=context] li .fa {
+    width: 23px;
+}
+
+menu[type=context] li:hover {
+    background: #eee;
+}
+
+.dropzone{
+    background: none;
+    padding: 0;
+    border: 0px !important;
+    min-height: 100%;
+}
+
+.dropzonePreviewTemplate{
+    display: block !important;
+    margin: 0 !important;
+    background: none !important;
+}
+
+.no-file-from-user{
+    color: #797979;
+    text-align: center;
+    padding: 120px 0px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.no-file-from-user .fa{
+    font-size: 130px;
+    margin-bottom: 20px;
+}
+
+.no-file-from-user .headline{
+    font-size: 30px;
+    margin-bottom: 28px;
+}
+
+.dropable-upload-status{
+    text-align: center;
+    padding: 120px 0px;
+    font-weight: 300;
+    font-size: 21px;
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.dropable-upload-content {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    padding-top: 50px;
+    background: rgba(255, 255, 255, 0.95);
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
+    margin-top: -125px;
+}
+
+.dropable-upload-status .fa{
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.dropable-upload-status .headline{
+    margin-bottom: 28px;
+}
+
+
+
+/* Light Gallary LOading BAR*/
+.lg-progress-bar .lg-progress {
+    background-color: #FF0000;
+    height: 4px;
+}

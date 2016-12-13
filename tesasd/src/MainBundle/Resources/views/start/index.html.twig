@@ -1,0 +1,99 @@
+{% extends 'MainBundle:layout:layout.html.twig' %}
+
+{% block body %}
+    <form action="?action=uploadFunction" method="post" enctype="multipart/form-data" class="dropzone" id="my-awesome-dropzone">
+        <menu type="context" id="copy-paste">
+            <li data-menuPoint="details"><i class="fa fa-info-circle" aria-hidden="true"></i> Details</li>
+            <li data-menuPoint="addPassword"><i class="fa fa-lock" aria-hidden="true"></i> Passwort sichern</li>
+            <li data-menuPoint="removePassword"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Passwort löschen</li>
+            <li data-menuPoint="rename"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Umbenennen</li>
+            <li data-menuPoint="download"><i class="fa fa-download" aria-hidden="true"></i> Downloaden</li>
+            <li data-menuPoint="visable"><i class="fa fa-eye" aria-hidden="true"></i> Sichtbar</li>
+            <li data-menuPoint="hidden"><i class="fa fa-eye-slash" aria-hidden="true"></i> Versteckt</li>
+            <li data-menuPoint="share"><i class="fa fa-share-alt" aria-hidden="true"></i> Teilen</li>
+            <li data-menuPoint="delete"><i class="fa fa-trash" aria-hidden="true"></i> Löschen</li>
+        </menu>
+
+        {% for flashMessage in app.session.flashbag.get('notice') %}
+            <div class="alert alert-danger alert-dismissible fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4>Ein Fehler ist aufgetreten!</h4>
+                <p>{{ flashMessage }}</p>
+            </div>
+        {% endfor %}
+
+
+        {% if userFiles is not empty %}
+            <div class="dropable-upload-status">
+                <div class="dropable-upload-content">
+                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                    <p class="headline">Bild loslassen, um den Upload zu starten.</p>
+                </div>
+            </div>
+        {% endif %}
+
+        <div class="container content-top-spacer">
+            <div class="row low-margin">
+                <!-- This is the set up of a basic gallery, your items must have the categories they belong to in a data-category
+                attribute, which starts from the value 1 and goes up from there -->
+
+                <div class="demo-gallery">
+                    <ul class="list-unstyled row low-margin">
+                        <span class="new-content-upload"></span>
+                        <span id="lightgallery">
+                            {% for file in userFiles %}
+                                <li class="col-xs-6 col-sm-4 col-md-3 low-padding" data-src="/uploads/{{ app.user.getUploadFolder }}/{{ file.urlPath|e }}/{{ file.originalName|e }}" data-sub-html="<p>Coole Sache vom 20.07.15</p>">
+                                    <a href="">
+                                        <img class="img-responsive" src="/uploads/{{ app.user.getUploadFolder }}/{{ file.urlPath|e }}/{{ file.thumbnail|e }}" contextmenu="copy-paste" imageHash="{{ file.urlPath|e }}">
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        </span>
+                    </ul>
+                </div>
+
+                {% if userFiles is empty %}
+                    <div class="col-sm-12">
+                        <div class="no-file-from-user">
+                            <i class="fa fa-cloud" aria-hidden="true"></i>
+                            <p class="headline">Du hast noch keine Bilder hochgeladen!</p>
+                            <p>Lade jetzt Bilder per Drag & Drop hoch oder benutze den Button in der oberen Navigation.</p>
+                        </div>
+                    </div>
+                {% endif %}
+
+            </div>
+        </div>
+    </form>
+
+    <div id="preview-template" style="display: none;">
+        <li class="dropzonePreviewTemplate dz-preview dz-file-preview col-xs-6 col-sm-4 col-md-3 low-padding">
+                <div class="dz-filename hidden"><span data-dz-name></span></div>
+                <div class="dz-size hidden" data-dz-size></div>
+                <img class="img-responsive" data-dz-thumbnail />
+            <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress></span></div>
+            <div class="dz-success-mark"><span>✔</span></div>
+
+                <div class="dz-error-mark"><span>✘</span></div>
+                <div class=""><span data-dz-errormessage></span></div>
+
+        </li>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="{{ asset('vendor/dropzone/js/dropzone.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lightgallery.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-fullscreen.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-thumbnail.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-video.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-autoplay.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-zoom.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-hash.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/lg-pager.js') }}"></script>
+    <script src="{{ asset('vendor/lightGallery/js/jquery.mousewheel.min.js') }}"></script>
+{% endblock %}
+

@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14b72ab2-a2cf-4e83-9ba9-a06ee1a8c199" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/bg.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MainBundle/Resources/views/Layout/layout-kalender.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/pro_/ap_ProdProjectContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/pro_/ap_ProdProjectContainer.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/pro_/classes.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/pro_/classes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/pro_/kernel.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/pro_/templates.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/annotations/01/5b4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223676574557365724e616d6573405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/annotations/74/5b4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722361707052657175657374416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/04/044eb56766bed133340be984d9e063963bdb2d47dddd678a93e8482f7585757c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/05/05798a7741e9c50e7b0e6c077cfdc957d90a94e865607b9d052960741d826d2d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/07/07f8a74333c99fbdf52f3f146a7459b80744aca6cd533c55d5db23c2c223de26.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/0a/0af2b00eb3edb033eaad8dc6ae151fa61a0cf6540e9740192b0d08860f87daca.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/11/1183dde2d24724e8528800aea898d816e5e0dd4e012aa1b36854652a72c18fb4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/11/11cc08df24ef2537900879c70a4cfd1ad9e36fa97ee544cd7a6334b5b34b0693.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/14/142579687dbe9c94dee7436039c89286d0141e20c30074295d0700a1d86aee66.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/20/20a18def41c9086d5b3aa15e569fe302fef15cf9b91195a6d830e3dd622ffb1a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/21/2177f61e204d571d988bcfbc0952ff4ddcc4293706cde10c7946eb9fc6487968.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/22/229a210aba1853272f6214c0be3518948791a7a2f6066a750965c7c4f3e829f3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/24/24a6d1d9b0a685c0237af8c1d3150e97588d2ad8f94d59f78a9539e8f33fdb8e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/2a/2ac63cef8dee13df86346db0684b60afa0e179136f92d5aa86c71318d1674c77.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/2b/2b01928d971c48a02d35de31276a0eb092d3a1664067ed8506e6403363b6900e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/30/30282260a4e82bf43782ce145fa7bd961f8f7b1914092d0053338b1e9068881d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/34/34e7c7f61d9feb05b665dd799b8a9ede5517027a12b69f1d2f9baea2d35c2ffd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/35/35d8a455f7fe3887f53aad1a92441152efc7b81aab31babb70c88234c7aacf30.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/37/3701279b8c95c72b51df038c41a356e1d50b0842d32b1234751a9960f2285679.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/38/38c56ba8c2a5aeb463875170a6629908616ffec830b1be121692771ff72316bf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/39/3916cb5e97656e16b4dc650bcf03df881d63b1a091a5470539cb2f9b73ce1b58.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/39/39719580606c2bf890ca642849e4af09bed534fe0e13ee4ccc813211d0d48b9c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/3c/3ca3130bc38919c5658139daada570925a9bd5ef139fc4f0ff7185f27e2c7948.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/40/4041b764c7dac179632c20156a8d41bbf5f539ed923b348dfdf37b86c5021f15.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/40/40b5831c0edc51f8baf7a307e861f8dc5220c9176e46500f73b1897800b7a4dd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/41/4187879e2c8666147556644905bddf950c6ce66edb64d2115689d1e6f309d783.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/41/41fc8eaa38abbe552bb5f3083c59a056cb76b01c6f6cb6336ceadcc5f71494d9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/46/4662051ed8d02de493ccaa8256b6b88b476efceaa436009e66369d7ddae6e1b6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/49/49bf14abeef5c82d5b2341c252514b68e8a5a0f8d25b18eaf3833295f90384c4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/4b/4b9c6612621125b5c64cbfbb73b4464330e8aabe3270e0291b40d75070399c51.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/4d/4d880b47380b4426775f9c14459b90a7b186506d2e5048474f824ff538426da8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/4d/4d98a4ad23c89180f4d017f3074f61312c281be2bbbb7d9a8d823e8ec47ba5f5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/53/5343fed344b5e53f84453060ca53e508d3410c0129e5cb45a336f3c7bd51914e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/59/59a7bef9ce9be770139c9389061fad8ffd1bef4bd304eca9a3dd55c681c265cc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/5d/5d778b867b0472325806e75a28f8b8989cc5848f9c14fa5778cfd515c04a50e9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/5d/5da913c558304ad350628171a1b96f266af79a7bf30c7f3ed5031ec925284ad5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/5e/5e2eeaad532605a2b111dcbd1133a7a270d24d184577ba3b32f868e4a085078e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/65/65fd255e9a28391b6d1b7a35c4701dbe9059628c0c605707a83b7aa084387268.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/67/67c80cf63017e767bfc8c66d62968c7fdafb1d413ad80926cc363f7df134008e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/6a/6a27877111e62fc4cbc0857e3d99c86424b1c021992c73b169f77699245d572e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/76/76258c411067d33ea741944c5335ac0eb9fb709171d6d37f2e2d70f8296db4fc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/77/777a6e2c23941794566d73fcdfa0f2ea773415b30230b61ff08937a8202cd968.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/79/79a985de1f9e4ab19d720baa9f6e6112783506f1de6c9ebddd294e8153a21e3d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/7e/7eccca35166302ef45af5a9f419c1c240b1a2db7024a991a3893cfcfceb7045f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/7f/7f19904ce3e8bcd2050c8f11676286194f494a6dc248d7c9f3e9b1898a1bf249.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/81/811596f764be2473fbd5f4f6721b669153c450749c04e7841a114760295a40d7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/87/87574484f4981c8fd6b17fcce2b4c4be92e0a2221cb7a4c24ec554a71b8a6f43.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/87/87f34d4c897b9f0579ee55359eb8ce9f05efb08b24da2008f07c2bf94f0ae97b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/89/891a8a6fa7f4257d37a5c04a414e379d684d8b31b6da109c51c13859a90ea34e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/8b/8b8221bbb7bfbc7fe623a80180dccc72e4273aafe44aeab49252cc1de49046b0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/8d/8deba324dadd0d2539fc29bcbf5a8c4d79f91377f972baa42240344d4d0dd169.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/8e/8e424dd3d1e26a33a4fb11f4b3dac15b3dec554ffff85057311a2bbd85b38008.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/8e/8e9a7639b18801dacf40db896d01af7ad62ff7ac51214389c708902881a76f65.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/8f/8f7442a962f56d8322c373d94d50b176acb86e4ed1cffcc2574abf60386dc100.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/98/98435d55e557c8a712b1238d31870430389f88c409de383869d59609a32c5d8b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/98/98a756b23bfb1c5eb374e33fb7cdbd17987a333233e87d75ad96d6273c07d77f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/99/99ff01baa3afff86b75f08df284d24a505ee1d383880c50e4c5447ee8b21ee0d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/9d/9d245ea7a925f2e9c621302cf26f222000612c085d5342342bc3f87c8adc814c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/9f/9f6eaed61b2ebe8a5f2ed5e4e94468a39c915c18d923d434104154eb9f422a64.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/a9/a95bfebe962cc59f11384367aacaca2d0da65adc615d73b7230cd64aa806e9f9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/b0/b06897ce268ec4673d9bbc2e4e97c41bd61f6ed1e93339836fcd82941cb11805.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/b0/b06cad5189adb115740a46749efbaabb98d198529678d172773c8388be08912b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/b0/b0be5e85240c508d4985c468fd305a20dd61f72ad4e2c69da6bf76a5a2019867.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/b4/b4a6fe54b864cc6483aa9fdefe27c2ce242eb07aa796e322deb5e6310bc626cb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/b7/b73dfc8200587d25c52226327a32d04d9ac0f16169ab6d8dfd7cd82fbe6aa885.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/b8/b81afde103a3d00ed0a7ace279982920bcdc1b9392ecb11be4bfd839a49a6fe6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/ba/baf5931680120c0e10e3127f68369de1b947fd9395ef849e341c83ce8e75d8c8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/bc/bce4c276d7ea9157de65d91f34441394a1ab58d17aacfdcfd97a09b3a8be586b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/be/be68c3a6b9fe81981683ff53fcf3ab687ce5068f29520d00c5c551c41a1eac3a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/bf/bf14fea26eed33e5359c8b1990deffbf3484e0f1fc588e6178be87a9a9955f45.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/c2/c280b8575ad121218944a436d870df47fe4ef4cf6e7576c640d7b60ae96e00bf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/c8/c854f0db1ee94473acfb8fdebcf3a67919c30f4a3d0c673c3a4646fa7f603253.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/c8/c85ee7e63df03c9c029574cb86197f7d30ffd68c1a9b1fd888e5707e2c55fc47.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/cc/cc63c264cfc804c949f829f76d5dab0395da537fe1f165513834a177c311870a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/d6/d6e9bce9b1f8f5133ed8c9bcaea6d2f095435788dc0bce4dd9cc333e4799a7f9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/da/da45a67c488c0ea04bf5f120166a84b81cc73853ec7ea5e8c5dc6a25ae3a0b3c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/de/de7099a4612b4f80219c747ecf374f748b6b82de0c08175e3d1e1a17fa669823.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/e5/e502e7098700d68d3d64cc8de7e1cd2c8f96974402e49b65f878ceae8f8434c7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/eb/eb5976b77838773546e91c065ec8e0480a562a2f0a715e569c2686b2e1924d11.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/ec/eca2455b9ea1f844e5bc20ff331f9f3dd15c21ca3e161b8c0f8b58293068698a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/ed/eda01732badd8d1cb80fc02e4c18c017f6347cf5c14043992f0a39b21b1dbd91.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/f3/f3aedbb09861032652307954828cf78e7164b95f35665909588155bd2b33a95a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/f3/f3cc00d48e1b9dded306aefb1beb6f8c96b5003d4985b51d9f342c82269601cc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/f4/f4a6ac81d9e4a94c7fbfc8fd2f88f804f5f44673a6512bf3df26d4de36145aa0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/f5/f518782615a33bf0d444bac8f863792c8e3f514cfca0edda16a3f3ece7c3088d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/f8/f8884dafa18db21899e117836c615be83dd9199009eba5fa499d990c55f43820.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/f9/f916ed2d7931b4ae65a97656674aa9eaf90431b6677e93b92a6574c20b2790f9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/fd/fd0a6ebd1f847d82937d03522f841818e16c264d22bcc2cda8fb537f528314bc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/fd/fd481efb20b3cffe82d45fc6539c3009a5918d63cc098fb4bb535fdfb2ed7dbb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/prod/twig/ff/ff37f032a804ee1d4d6812788a4c129f1e526bd279e4c806b37f696ba8adc8a6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/avatar_2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/gplaypattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/gplaypattern2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/alexander-lindner-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/alexander-lindner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/andre-moch-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/andre-moch.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/anja-schmidt-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/anja-schmidt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/anne-elkmann-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/anne-elkmann.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/bianca-wetter-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/bianca-wetter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/christina-greinert-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/christina-greinert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/denise-spindelndreier-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/denise-spindelndreier.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/dennis-letec-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/dennis-letec.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/felix-fissenewert-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/felix-fissenewert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/florian-breuer-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/florian-breuer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/gitta-brune-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/gitta-brune.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/johan-de-jager-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/johan-de-jager.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/josef-kunter-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/josef-kunter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/kerstin-reinshagen-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/kerstin-reinshagen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/manuel-bachl-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/manuel-bachl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/marian-widera-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/marian-widera.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/reinert-keuter-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/reinert-keuter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/rita-suntrop-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/rita-suntrop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/ruediger-poehl-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/ruediger-poehl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/stefan-meissner-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/stefan-meissner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/tanja-schaefer-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/tanja-schaefer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/tom-blankenaufulland-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/mitarbeiter/tom-blankenaufulland.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/normal-folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/normal-folder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/vendor/bs-datetimepicker/css/bootstrap-material-datetimepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/vendor/bs-datetimepicker/js/bootstrap-material-datetimepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/vendor/matchHeight/js/matchheight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/vendor/momentjs/js/moment.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Resources/views/Layout/layout.html.twig" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/Layout/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Resources/views/default/default.html.twig" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/default/default.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/59/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722364656661756c74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/59/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722364656661756c74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/f7/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/f7/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevUrlGenerator.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevUrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevUrlGenerator.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevUrlMatcher.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevUrlMatcher.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/prod/appProdProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/prod/appProdProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/prod/appProdProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/prod/appProdProjectContainer.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/prod/appProdUrlGenerator.php" afterPath="$PROJECT_DIR$/var/cache/prod/appProdUrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/prod/appProdUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/var/cache/prod/appProdUrlGenerator.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/prod/appProdUrlMatcher.php" afterPath="$PROJECT_DIR$/var/cache/prod/appProdUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/prod/appProdUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/var/cache/prod/appProdUrlMatcher.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/prod/classes.map" afterPath="$PROJECT_DIR$/var/cache/prod/classes.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/prod/classes.php" afterPath="$PROJECT_DIR$/var/cache/prod/classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/prod/templates.php" afterPath="$PROJECT_DIR$/var/cache/prod/templates.php" />
+    </list>
+    <ignored path="Projekttool-symfony.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Projekttool-symfony" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="chatroom-layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/Layout/chatroom-layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatroom.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/default.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Temp/scp44298/web/typo3conf/ext/template/Resources/Private/Templates/Content/Slider-Fullscreen.html" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/user/login.html.twig" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/2a773fba-85f1-4e5c-8e75-abfee6715c5c/httpdocs/template/inc_js/frontend.js" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/ajaxTemplates/rightMenuTeamContent.html.twig" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Service/Search.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/ajaxTemplates/searchContent.html.twig" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/css/styles-unternehmen.css" />
+        <option value="$PROJECT_DIR$/web/css/styles-light.css" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Controller/CustomerController.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Controller/RequestController.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Repository/KalenderEintragRepository.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="/Volumes/htdocs56/projekte/projektmanager/.htaccess" />
+        <option value="/Volumes/htdocs56/projekte/projektmanager/web/app_dev.php" />
+        <option value="/Volumes/htdocs56/projekte/projektmanager/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/start/kalender.html.twig" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/Layout/layout-kalender.html.twig" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/start/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/ajaxTemplates/kalenderContent.html.twig" />
+        <option value="$PROJECT_DIR$/web/js/kalender.js" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Repository/TeamRepository.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Repository/UsersInTeamsRepository.php" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/99aa2cf0-5802-430a-abaa-15dfab28d764/web/typo3conf/ext/template/Resources/Public/Styles/Styles.less" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/ts/setup-main.t3s" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/js/googletracking.js" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/customer/index.html.twig" />
+        <option value="/Volumes/htdocs56/projekte/projektmanager/www/web/app_dev.php" />
+        <option value="/Volumes/htdocs56/projekte/projektmanager/www/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Controller/CalendarController.php" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/4b60458a-5bd2-413d-ae27-69f6842f498c/web/fileadmin/templates/inc/ts/setup-main.t3s" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/var/logs/prod.log" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/app-php/web/app_dev.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Repository/KalenderEintragRepository.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Entity/Tokens.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Repository/TokenRepository.php" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/ts/setup-main.t3s" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/js/ext-supersized.js" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/css/layout.css" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/app-php/src/MainBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/web/.htaccess" />
+        <option value="$PROJECT_DIR$/web/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/web/js/main.js" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/default/default.html.twig" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Controller/ChatroomController.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/Layout/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/main.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/Projekttool-symfony/src/MainBundle/Resources/views/ajaxTemplates/kalenderContent.html.twig&#10;Symfony\Component\Security\Http\Authentication\AuthenticationUtils&#9;null&#9;null" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\web\vendor\colorpanel\js" />
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\web\vendor\colorpanel\css" />
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\web" />
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\src\MainBundle" />
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\src\MainBundle\Service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/MainBundle/Resources/views/Layout" />
+      <recent name="$PROJECT_DIR$/src/MainBundle/Controller" />
+      <recent name="$PROJECT_DIR$/src/MainBundle/Resources/views/default" />
+      <recent name="$PROJECT_DIR$/web/img" />
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\web\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14b72ab2-a2cf-4e83-9ba9-a06ee1a8c199" name="Default" comment="" />
+      <created>1465306222140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1465306222140</updated>
+      <workItem from="1473166017773" duration="5628000" />
+      <workItem from="1473234653086" duration="1194000" />
+      <workItem from="1473240970675" duration="27000" />
+      <workItem from="1473249471072" duration="12236000" />
+      <workItem from="1473326389277" duration="1149000" />
+      <workItem from="1473752745615" duration="1155000" />
+      <workItem from="1478174411971" duration="4915000" />
+      <workItem from="1478602274629" duration="786000" />
+      <workItem from="1478682224405" duration="4686000" />
+      <workItem from="1478694265868" duration="6721000" />
+      <workItem from="1479211170887" duration="8730000" />
+      <workItem from="1479285556511" duration="3033000" />
+      <workItem from="1479289190278" duration="1674000" />
+      <workItem from="1479307488480" duration="10189000" />
+      <workItem from="1479389060923" duration="1498000" />
+      <workItem from="1479799330841" duration="11000" />
+      <workItem from="1479802160427" duration="3192000" />
+      <workItem from="1479915254572" duration="734000" />
+      <workItem from="1479970418439" duration="1875000" />
+      <workItem from="1480123477795" duration="8799000" />
+      <workItem from="1480407694927" duration="7000" />
+      <workItem from="1480415041650" duration="2499000" />
+      <workItem from="1480427365258" duration="3000" />
+      <workItem from="1481274642378" duration="934000" />
+      <workItem from="1481283137534" duration="22000" />
+      <workItem from="1481653612252" duration="10945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="93122000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22818312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940018" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../imageCloud/Image_Cloud/src/MainBundle/Controller/DefaultController.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/start/index.html.twig" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/99aa2cf0-5802-430a-abaa-15dfab28d764/web/typo3conf/ext/template/Resources/Public/Components/magiczoom/js/magiczoom.js" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/99aa2cf0-5802-430a-abaa-15dfab28d764/web/typo3conf/ext/template/Resources/Public/Styles/Styles.less" />
+    <entry file="file:///Volumes/htdocs/projekte/venjakob-moebel/venjakob_typo3/fileadmin/templates/inc/js/googletracking.js" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/ts/setup-main.t3s" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/js/googletracking.js" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/js/extend.js" />
+    <entry file="file://$PROJECT_DIR$/web/css/lightGallerySettings.css" />
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/CustomerController.php" />
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/customer/index.html.twig" />
+    <entry file="file:///Volumes/htdocs56/projekte/projektmanager/www/web/app_dev.php" />
+    <entry file="file:///Volumes/htdocs56/projekte/projektmanager/www/app/config/parameters.yml" />
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/CalendarController.php" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/4b60458a-5bd2-413d-ae27-69f6842f498c/web/fileadmin/templates/inc/ts/setup-main.t3s" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/logs/prod.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/logs/dev.log">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/app-php/web/app_dev.php" />
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Repository/UsersInEntrysRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Entity/KalenderEintrag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="92" column="10" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Repository/KalenderEintragRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Entity/Tokens.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Repository/TokenRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/ts/setup-main.t3s" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/js/ext-supersized.js" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/css/layout.css" />
+    <entry file="file://$USER_HOME$/Desktop/VPN_Shrewsoft_Dennis_Letec_16_12_2015.pcf" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/app-php/src/MainBundle/Controller/DefaultController.php" />
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/MainPage/inc/internal/img/bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/MainPage/inc/internal/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Resources/views/Layout/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Resources/views/default/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Resources/views/customer/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Controller/RequestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding>
+            <marker date="1480579088000" expanded="true" signature="11899:11981" ph="SELECT * FRO... ro_client" />
+            <marker date="1480579088000" expanded="true" signature="12195:12406" ph="SELECT proje... ro_project" />
+            <marker date="1480579088000" expanded="true" signature="12622:12664" ph="SELECT * FRO... ro_client" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Controller/CalendarController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <marker date="1480432134000" expanded="true" signature="3796:4101" ph="SELECT proje... ro_project" />
+            <marker date="1480432134000" expanded="true" signature="4550:4592" ph="SELECT * FRO... ro_client" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/ChatroomController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#98#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/Layout/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/Layout/chatroom-layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

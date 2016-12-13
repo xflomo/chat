@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Image stack{% endblock %}</title>
+
+    {% block stylesheets %}
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/fontawesome/css/font-awesome.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('vendor/dropzone/css/dropzone.css') }}">
+            <link rel="stylesheet" href="{{ asset('vendor/lightGallery/css/lightgallery.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+
+
+<nav>
+    <div class="container">
+        <ul>
+            <li {% if menu_selected|default('fotos') == 'fotos' %} class="active"{% endif %}><a href="/fotos">Fotos</a></li>
+            <li {% if menu_selected == 'profil' %} class="active"{% endif %}><a href="#">Profil</a></li>
+            <li {% if menu_selected == 'papierkorb' %} class="active"{% endif %}><a href="/papierkorb">Papierkorb</a></li>
+            <li {% if menu_selected == 'einstellungen' %} class="active"{% endif %}><a href="#">Einstellungen</a></li>
+            <li {% if menu_selected == 'logout' %} class="active"{% endif %}><a href="/logout">Abmelden</a></li>
+        </ul>
+    </div>
+</nav>
+<header>
+    <div class="container">
+        <div class="header-menu-content">
+            <div class="upload-bar">
+                <i class="fa fa-cloud-upload" aria-hidden="true"></i> Bilder hochladen
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Suche" name="filtr-search" data-search/>
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="profil-bar">
+                <img src="http://denise.fb-dev.de/art/avatar_2x.png">
+                {{ app.user.username }}
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+    {% block body %} {% endblock %}
+
+
+{% block javascripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+{% endblock %}
+</body>
+</html>
