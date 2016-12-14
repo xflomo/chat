@@ -1,0 +1,61 @@
+<?php
+
+namespace MainBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Messages
+ *
+ * @ORM\Table(name="messages", uniqueConstraints={@ORM\UniqueConstraint(name="uid", columns={"uid"})})
+ * @ORM\Entity
+ */
+class Messages
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="sender", type="integer", nullable=false)
+     */
+    private $sender;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="chatroom", type="integer", nullable=false)
+     */
+    private $chatroom;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="type", type="integer", nullable=false)
+     */
+    private $type;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="message", type="text", length=65535, nullable=false)
+     */
+    private $message;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="createTime", type="datetime", nullable=false)
+     */
+    private $createtime;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="uid", type="bigint")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $uid;
+
+
+}
+

@@ -5,18 +5,23 @@ $(document).ready(function(){
 $(window).load(function(){
     // TODO abfrage integrieren nach aktueller chatraum id
     if($("#chatMessages").length >0){
-        $.ajax({
-            url : "/ajax",
-            type: "POST",
-            data: {
-                ajaxCall: "getMessagesFromChatroom"
-            },
-            success: function(html){
-                $("#chatMessages").html(html);
-            }
-        });
+        loadChatMessages();
     }
 });
+
+function loadChatMessages() {
+    $.ajax({
+        url : "/ajax",
+        type: "POST",
+        data: {
+            ajaxCall: "getMessagesFromChatroom"
+        },
+        success: function(html){
+            $("#chatMessages").html(html);
+            $(".chatbox-content").scrollTop($(".chatbox-content").prop("scrollHeight"));
+        }
+    });
+}
 
 function loadChatRoom() {
     $(".chat-start-container").fadeOut(350);
@@ -71,30 +76,20 @@ function writeChatMessage(value) {
 
 function sendMessage(message) {
     // TODO Replace mit php anbindung AJAX Call
-    console.log(message);
-    $(".chatbox-content").append('<div class="chatbox-message-container my-message"> ' +
-        '<div class="chatbox-message"> ' +
-        '<div class="message-box"> ' +
-        '<div class="message-content">' +
-        '<div class="message-header"> ' +
-        '<div class="message-user">' +
-        'Florian ' +
-        '</div> ' +
-        '<div class="message-time"> ' +
-        '<i class="material-icons">access_time</i> 10:32 ' +
-        '</div> ' +
-        '</div>' +
-    '<div class="message-text">' +
-        message +
-        '</div> ' +
-        '</div> ' +
-        '</div> ' +
-        '</div> ' +
-        '</div>'
-    );
 
-    $(".chatbox-content").scrollTop($(".chatbox-content").prop("scrollHeight"));
     $(".chatbox-input .input-placeholder").css('visibility', 'visible');
     $(".chatbox-input .input").html("");
-
+    if(message.length > 0 && message != " " && message != "&nbsp;") {
+        $.ajax({
+            url: "/ajax",
+            type: "POST",
+            data: {
+                ajaxCall: "newChatMessage",
+                value: message
+            },
+            success: function () {
+                loadChatMessages();
+            }
+        });
+    }
 }

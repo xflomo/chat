@@ -16,7 +16,9 @@ class ChatroomController extends Controller
      */
     public function chatroomAction ($roomId)
     {
-        return $this->render('MainBundle:default:chatroom.html.twig');
+        return $this->render('MainBundle:default:chatroom.html.twig', array(
+            "roomNumber" => $roomId
+        ));
     }
 
 

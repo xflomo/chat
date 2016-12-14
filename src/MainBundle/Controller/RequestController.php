@@ -2,6 +2,7 @@
 namespace MainBundle\Controller;
 
 use MainBundle\Entity\Chatroom;
+use MainBundle\Entity\Messages;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
@@ -24,6 +25,9 @@ class RequestController extends Controller
                         break;
                     case "getMessagesFromChatroom":
                         echo $this->getMessagesFromChatroom();
+                        break;
+                    case "newChatMessage":
+                        $this->newChatMessage($request->get("value"));
                         break;
                 }
             }
@@ -59,7 +63,33 @@ class RequestController extends Controller
     }
 
     public function getMessagesFromChatroom (){
-        return $this->removeHeaderFromTwigTemplate($this->render('MainBundle:ajax:chatroom-message-content.html.twig'));
+        // TODO Type checking der nachrichten (Systemnachricht, Usernachricht, Infonachricht usw.)
+        $repository = $this->getDoctrine()->getRepository('MainBundle:Messages');
+        $messages = $repository->findBy( array('chatroom' => 824));
+        echo $this->removeHeaderFromTwigTemplate(
+            $this->render('MainBundle:ajax:chatroom-message-content.html.twig', array(
+                "messages" => $messages
+            ))
+        );
+    }
+
+    public function newChatMessage($text){
+        // Create Chatroom Object
+        $senderId = rand(1, 3);
+
+        $now = new \DateTime('NOW');
+        $message = new Messages();
+        $message->setChatroom(824);
+        $message->setMessage($text);
+        $message->setCreatetime($now);
+        $message->setSender($senderId);
+        $message->setType(1);
+
+        $em = $this->getDoctrine()->getManager();
+
+        $em->persist($message);
+        // Safe Chatroom in Database
+        $em->flush();
     }
 
     public function removeHeaderFromTwigTemplate($content){

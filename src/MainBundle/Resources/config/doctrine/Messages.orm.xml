@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MainBundle\Entity\Messages" table="messages">
+    <unique-constraints>
+      <unique-constraint name="uid" columns="uid"/>
+    </unique-constraints>
+    <id name="uid" type="bigint" column="uid">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="sender" type="integer" column="sender" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="chatroom" type="integer" column="chatroom" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="type" type="integer" column="type" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="message" type="text" column="message" length="65535" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="createtime" type="datetime" column="createTime" nullable="false"/>
+  </entity>
+</doctrine-mapping>

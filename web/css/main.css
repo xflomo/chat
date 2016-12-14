@@ -298,6 +298,17 @@ i.material-icons{
     overflow-y: auto;
 }
 
+.chatbox-content .no-message-container{
+    color: #888;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.chatbox-content .no-message-container i{
+    font-size: 70px;
+    margin-top: 0px;
+}
+
 .chatbox-message-container{
     margin-bottom: 20px;
 }
