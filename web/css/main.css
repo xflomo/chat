@@ -123,12 +123,23 @@ body{
     padding: 20px 0px;
 }
 
+.list-group .list-group-item .row-picture i{
+    background: #ddd;
+    color: #222;
+    font-size: 26px;
+}
+
+.list-group .list-group-item .row-picture{
+    vertical-align: top;
+}
+
 .member-list .list-group
 .list-group-item
 .list-group-item-heading{
-    color: #ccc;
-    font-size: 18px;
-    margin-bottom: 0px;
+    color: #ddd;
+    font-size: 16px;
+    margin-bottom: 2px;
+    line-height: 1;
 }
 
 .member-list .list-group .list-group-separator:before{
@@ -136,7 +147,12 @@ body{
 }
 
 .member-list .list-group .list-group-separator{
-    margin-top: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.list-group .list-group-item .row-content{
+    min-height: 60px;
 }
 
 .member-list .list-group .list-group-item .list-group-item-text{
@@ -147,8 +163,8 @@ body{
     display: inline-block;
     color: #333;
     font-size: 18px;
-    line-height: 39px;
-    height: 39px;
+    line-height: 40px;
+    height: 40px;
     font-weight: 400;
 }
 
@@ -159,26 +175,58 @@ body{
     border-bottom: 1px solid rgba(0,0,0,.08);
     padding: 10px 20px;
     border-left: 1px solid rgba(0,0,0,.08);
+    display: flex;
+    font-size: 15px;
 }
 
 .chatbox-header .chatroom-controlls{
-    float: right;
-    height: 39px;
+    height: 40px;
+    display: flex;
 }
 
-.chatbox-header .chatroom-controlls i{
+.chatbox-header .online-users{
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+}
+
+.chatbox-header .left-content{
+    width: 100%;
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.chatbox-header .online-users p{
+    margin-bottom: 0;
+}
+
+.chatbox-header .online-users i{
+    line-height: 40px;
     font-size: 29px;
-    line-height: 39px;
+    margin-right: 7px;
+}
+
+
+.chatbox-header .chatroom-controlls i{
+    font-size: 26px;
+    line-height: 40px;
     cursor: pointer;
+    margin-left: 15px;
+}
+
+.chatbox-header .chatroom-controlls i.menu-icon{
+    font-size: 32px;
 }
 
 .chatbox-content{
     position: absolute;
-    top: 75px;
-    left: 15px;
-    right: 15px;
-    bottom: 75px;
-    padding: 10px 15px;
+    top: 80px;
+    left: 20px;
+    right: 20px;
+    bottom: 80px;
     overflow: hidden;
     overflow-y: scroll;
 }
@@ -202,6 +250,7 @@ body{
     padding: 10px;
     max-width: 65%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.88);
+    min-width: 200px;
 }
 
 .chatbox-message-container.my-message{
@@ -224,14 +273,14 @@ body{
 .chatbox-input{
     position: absolute;
     bottom: 15px;
-    left: 15px;
-    right: 15px;
+    left: 20px;
+    right: 20px;
     height: 60px;
-    padding: 10px 15px;
+    padding: 10px 0;
     display: flex;
 }
 
-.chatbox-input input{
+.chatbox-input .input-contaier{
     width: 100%;
     border: none;
     height: 40px;
@@ -241,7 +290,17 @@ body{
     display: flex;
     font-size: 15px;
     font-weight: 400;
+    position: relative;
 }
+
+
+.chatbox-input .input-contaier .input{
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    overflow: hidden;
+}
+
 
 .chatbox-input .smile-controll{
     display: flex;
@@ -325,7 +384,7 @@ body{
 
 @media (min-width: 1500px){
     .chatroom-container{
-        max-width: 1500px;
+        max-width: 1400px;
         box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
         border-radius: 6px;
         bottom: 50px;
