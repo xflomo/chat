@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="14b72ab2-a2cf-4e83-9ba9-a06ee1a8c199" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
     </list>
     <ignored path="Projekttool-symfony.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +37,28 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="120" column="69" selection-start-line="120" selection-start-column="69" selection-end-line="120" selection-end-column="69" />
+            <state relative-caret-position="226">
+              <caret line="400" column="16" selection-start-line="400" selection-start-column="16" selection-end-line="400" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432">
+              <caret line="51" column="10" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatroom.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/chat/src/MainBundle/Resources/views/default/chatroom.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,8 +67,8 @@
       <file leaf-file-name="chatroom.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="68" />
+            <state relative-caret-position="135">
+              <caret line="9" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/user/login.html.twig" />
         <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/2a773fba-85f1-4e5c-8e75-abfee6715c5c/httpdocs/template/inc_js/frontend.js" />
         <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/ajaxTemplates/rightMenuTeamContent.html.twig" />
         <option value="$PROJECT_DIR$/src/MainBundle/Service/Search.php" />
@@ -142,6 +159,7 @@
         <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/chat/web/.htaccess" />
         <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig" />
         <option value="$PROJECT_DIR$/web/js/main.js" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/chat/src/MainBundle/Resources/views/default/chatroom.html.twig" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
       </list>
     </option>
@@ -584,12 +602,12 @@
       <workItem from="1481653612252" duration="12673000" />
       <workItem from="1481703326462" duration="549000" />
       <workItem from="1481707337593" duration="8892000" />
-      <workItem from="1481729709091" duration="5130000" />
+      <workItem from="1481729709091" duration="5563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109421000" />
+    <option name="totallyTimeSpent" value="109854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,7 +667,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/ts/setup-main.t3s" />
     <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/js/googletracking.js" />
     <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/js/extend.js" />
     <entry file="file://$PROJECT_DIR$/web/css/lightGallerySettings.css" />
@@ -834,14 +851,6 @@
     <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/chat/app/autoload.php" />
     <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/chat/web/app_dev.php" />
     <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/chat/web/.htaccess" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/img/anonym-profil.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -854,14 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -882,10 +883,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/chat/src/MainBundle/Resources/views/default/chatroom.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="120" column="69" selection-start-line="120" selection-start-column="69" selection-end-line="120" selection-end-column="69" />
+        <state relative-caret-position="226">
+          <caret line="400" column="16" selection-start-line="400" selection-start-column="16" selection-end-line="400" selection-end-column="16" />
           <folding />
         </state>
       </provider>
