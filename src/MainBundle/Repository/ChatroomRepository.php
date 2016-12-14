@@ -7,6 +7,10 @@ use MainBundle\Entity\Chatroom;
 class ChatroomRepository extends EntityRepository
 {
 
+    public function generateUniqueId(){
+        return rand(0, 99999);
+    }
+
     //Suche nach Mitarbeitereinträgen
     public function getTeamByUrl($url)
     {

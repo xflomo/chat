@@ -3,10 +3,16 @@
   <entity name="MainBundle\Entity\Chatroom" table="chatroom">
     <unique-constraints>
       <unique-constraint name="uid" columns="uid"/>
+      <unique-constraint name="id" columns="id"/>
     </unique-constraints>
     <id name="uid" type="integer" column="uid">
       <generator strategy="IDENTITY"/>
     </id>
+    <field name="id" type="integer" column="id" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
     <field name="owner" type="integer" column="owner" nullable="false">
       <options>
         <option name="unsigned"/>

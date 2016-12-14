@@ -7,11 +7,18 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Chatroom
  *
- * @ORM\Table(name="chatroom", uniqueConstraints={@ORM\UniqueConstraint(name="uid", columns={"uid"})})
+ * @ORM\Table(name="chatroom", uniqueConstraints={@ORM\UniqueConstraint(name="uid", columns={"uid"}), @ORM\UniqueConstraint(name="id", columns={"id"})})
  * @ORM\Entity
  */
 class Chatroom
 {
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     */
+    private $id;
+
     /**
      * @var integer
      *
@@ -43,6 +50,30 @@ class Chatroom
     private $uid;
 
 
+
+    /**
+     * Set id
+     *
+     * @param integer $id
+     *
+     * @return Chatroom
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+
+        return $this;
+    }
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
 
     /**
      * Set owner

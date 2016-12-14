@@ -2,12 +2,38 @@ $(document).ready(function(){
     $.material.init();
 });
 
+$(window).load(function(){
+    // TODO abfrage integrieren nach aktueller chatraum id
+    if($("#chatMessages").length >0){
+        $.ajax({
+            url : "/ajax",
+            type: "POST",
+            data: {
+                ajaxCall: "getMessagesFromChatroom"
+            },
+            success: function(html){
+                $("#chatMessages").html(html);
+            }
+        });
+    }
+});
+
 function loadChatRoom() {
     $(".chat-start-container").fadeOut(350);
     $(".loading-container").fadeIn(700);
-    setTimeout(function(){
-        window.location.href = "/chatroom/1234";
-    }, 3500);
+
+    $.ajax({
+        url : "/ajax",
+        type: "POST",
+        data: {
+            ajaxCall: "createNewChatroom"
+        },
+        success: function(html){
+            setTimeout(function(){
+                window.location.href = "/chatroom/"+html;
+            }, 1000);
+        }
+    });
 }
 
 $( ".chatbox-input .input" ).keyup(function( event ) {
