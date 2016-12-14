@@ -33,16 +33,20 @@ function writeChatMessage(value) {
 
 function sendMessage(message) {
     // TODO Replace mit php anbindung AJAX Call
-    String(message).replace('d','h');
     console.log(message);
     $(".chatbox-content").append('<div class="chatbox-message-container my-message"> ' +
         '<div class="chatbox-message"> ' +
         '<div class="message-box"> ' +
-        '<div class="message-content"> ' +
+        '<div class="message-content">' +
+        '<div class="message-header"> ' +
         '<div class="message-user">' +
         'Florian ' +
         '</div> ' +
-        '<div class="message-text">' +
+        '<div class="message-time"> ' +
+        '<i class="material-icons">access_time</i> 10:32 ' +
+        '</div> ' +
+        '</div>' +
+    '<div class="message-text">' +
         message +
         '</div> ' +
         '</div> ' +

@@ -117,6 +117,8 @@ body{
     background: #eee;
     padding: 10px 20px;
     border-bottom: 1px solid rgba(0,0,0,.08);
+    display: flex;
+    color: #333;
 }
 
 .member-list .meber-list-content{
@@ -161,11 +163,21 @@ body{
 
 .meber-list-header .chatroom-id{
     display: inline-block;
-    color: #333;
     font-size: 18px;
     line-height: 40px;
     height: 40px;
     font-weight: 400;
+    display: flex;
+    width: 100%;
+}
+
+.meber-list-header .add-chatroom{
+    display: flex;
+}
+
+.meber-list-header .add-chatroom i{
+    font-size: 29px;
+    line-height: 40px;
 }
 
 .chatbox .chatbox-header{
@@ -173,7 +185,7 @@ body{
     height: 60px;
     background: #ddd;
     border-bottom: 1px solid rgba(0,0,0,.08);
-    padding: 10px 20px;
+    padding: 10px 10px 10px 25px;
     border-left: 1px solid rgba(0,0,0,.08);
     display: flex;
     font-size: 15px;
@@ -195,7 +207,7 @@ body{
     display: flex;
     height: 40px;
     line-height: 40px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -224,8 +236,8 @@ body{
 .chatbox-content{
     position: absolute;
     top: 80px;
-    left: 20px;
-    right: 20px;
+    left: 25px;
+    right: 25px;
     bottom: 80px;
     overflow: hidden;
     overflow-y: scroll;
@@ -244,7 +256,7 @@ body{
 }
 
 .chatbox-message-container .message-box{
-    background-color: #ddd;
+    background-color: #eee;
     display: inline-block;
     border-radius: 8px;
     padding: 10px;
@@ -266,14 +278,41 @@ body{
     text-align: left;
 }
 
+.message-content .message-header{
+    display: flex;
+    margin-bottom: 3px;
+}
+
+
+.message-content .message-text{
+    color: #000;
+    font-size: 13px;
+    font-weight: normal;
+}
+
 .message-content .message-user{
-    font-weight: 400;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+}
+
+.message-content .message-time{
+    display: flex;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.message-content .message-time i{
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 3px;
 }
 
 .chatbox-input{
     position: absolute;
-    bottom: 15px;
-    left: 20px;
+    bottom: 10px;
+    left: 25px;
     right: 20px;
     height: 60px;
     padding: 10px 0;
@@ -285,7 +324,7 @@ body{
     border: none;
     height: 40px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 15px;
     background-color: #ddd;
     display: flex;
     font-size: 15px;
@@ -294,10 +333,15 @@ body{
 }
 
 
+.chatbox-input .input-contaier .input-placeholder{
+    color: #777;
+    font-weight: 300;
+}
+
 .chatbox-input .input-contaier .input{
     position: absolute;
-    left: 10px;
-    right: 10px;
+    left: 15px;
+    right: 15px;
     overflow: hidden;
 }
 
