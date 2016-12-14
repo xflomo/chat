@@ -18,6 +18,18 @@ $( ".chatbox-input .input" ).keyup(function( event ) {
     }
 });
 
+$( ".chat-left-nav.member-list" ).on( "click", ".add-chatroom", function() {
+    $(".chat-left-nav.add-chatgroup-nav").animate({
+        left: '0px'
+    });
+});
+
+$( ".chat-left-nav.add-chatgroup-nav" ).on( "click", ".add-chatroom", function() {
+    $(".chat-left-nav.add-chatgroup-nav").animate({
+        left: '-350px'
+    });
+});
+
 // Disable Umbruch
 $(document).on('keypress', '.chatbox-input .input', function(e){
     return e.which != 13;
