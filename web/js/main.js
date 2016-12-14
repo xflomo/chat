@@ -26,7 +26,7 @@ $( ".chat-left-nav.member-list" ).on( "click", ".add-chatroom", function() {
 
 $( ".chat-left-nav.add-chatgroup-nav" ).on( "click", ".add-chatroom", function() {
     $(".chat-left-nav.add-chatgroup-nav").animate({
-        left: '-350px'
+        left: '-360px'
     });
 });
 

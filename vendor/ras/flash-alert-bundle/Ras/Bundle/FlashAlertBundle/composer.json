@@ -1,0 +1,32 @@
+{
+    "name": "ras/flash-alert-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "FlashAlertBundle provides a simplified way to handle (add/display) Symfony flash messages. Client side scripts are written in pure JavaScript.",
+    "homepage": "http://rasanga.github.io/FlashAlertBundle/",
+    "keywords": [
+        "alert",
+        "flash",
+        "message",
+        "feedback",
+        "notification",
+        "symfony",
+        "Bundle"
+    ],
+    "authors": [
+        {
+            "name": "Rasanga Perera",
+            "email": "rasangaperera@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": ">=2.1",
+        "twig/twig": "~1.12"
+    },
+    "target-dir": "Ras/Bundle/FlashAlertBundle/",
+    "autoload": {
+        "psr-0": { "Ras\\Bundle\\FlashAlertBundle": "" }
+    },
+    "minimum-stability": "dev"
+}
