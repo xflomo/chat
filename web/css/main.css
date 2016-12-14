@@ -240,7 +240,7 @@ body{
     right: 25px;
     bottom: 80px;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .chatbox-message-container{
