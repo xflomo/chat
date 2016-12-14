@@ -1,0 +1,47 @@
+<?php
+
+namespace MainBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Tokens
+ *
+ * @ORM\Table(name="tokens", uniqueConstraints={@ORM\UniqueConstraint(name="uid", columns={"uid"}), @ORM\UniqueConstraint(name="token", columns={"token"})})
+ * @ORM\Entity
+ */
+class Tokens
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="token", type="string", length=200, nullable=false)
+     */
+    private $token;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="userId", type="integer", nullable=false)
+     */
+    private $userid;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="createTime", type="datetime", nullable=false)
+     */
+    private $createtime;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="uid", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $uid;
+
+
+}
+
