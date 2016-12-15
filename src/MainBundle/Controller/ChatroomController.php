@@ -16,6 +16,15 @@ class ChatroomController extends Controller
      */
     public function chatroomAction ($roomId)
     {
+        $repository = $this->getDoctrine()->getRepository('MainBundle:Chatroom');
+        $chatroom = $repository->findOneBy( array('id' => $roomId));
+
+        // If chatroom dosent exist redirect to startpage
+        if($chatroom === null){
+            return $this->redirectToRoute('defaultAction');
+        }
+
+
         return $this->render('MainBundle:default:chatroom.html.twig', array(
             "roomNumber" => $roomId
         ));

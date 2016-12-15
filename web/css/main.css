@@ -301,12 +301,18 @@ i.material-icons{
 .chatbox-content .no-message-container{
     color: #888;
     text-align: center;
-    margin-top: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    height: 230px;
+    margin-top: -115px;
 }
 
 .chatbox-content .no-message-container i{
     font-size: 70px;
-    margin-top: 0px;
+    margin-top: 50px;
 }
 
 .chatbox-message-container{

@@ -24,10 +24,10 @@ class RequestController extends Controller
                         echo $this->createNewChatroom();
                         break;
                     case "getMessagesFromChatroom":
-                        echo $this->getMessagesFromChatroom();
+                        echo $this->getMessagesFromChatroom($request->get("chatId"));
                         break;
                     case "newChatMessage":
-                        $this->newChatMessage($request->get("value"));
+                        $this->newChatMessage($request->get("value"), $request->get("chatId"));
                         break;
                 }
             }
@@ -62,10 +62,19 @@ class RequestController extends Controller
         return $chatroomId;
     }
 
-    public function getMessagesFromChatroom (){
+    public function getMessagesFromChatroom ($chatroomId){
+
+        // TODO Check einbauen ob user in chatroom exisitert
+        $repository = $this->getDoctrine()->getRepository('MainBundle:Chatroom');
+        $chatroom = $repository->findOneBy( array('id' => $chatroomId));
+
+        // If chatroom dosent exist do nothing
+        if($chatroom === null){return;}
+
         // TODO Type checking der nachrichten (Systemnachricht, Usernachricht, Infonachricht usw.)
+
         $repository = $this->getDoctrine()->getRepository('MainBundle:Messages');
-        $messages = $repository->findBy( array('chatroom' => 824));
+        $messages = $repository->findBy( array('chatroom' => $chatroomId));
         echo $this->removeHeaderFromTwigTemplate(
             $this->render('MainBundle:ajax:chatroom-message-content.html.twig', array(
                 "messages" => $messages
@@ -73,13 +82,18 @@ class RequestController extends Controller
         );
     }
 
-    public function newChatMessage($text){
+    public function newChatMessage($text, $chatroomId){
+        $repository = $this->getDoctrine()->getRepository('MainBundle:Chatroom');
+        $chatroom = $repository->findOneBy( array('id' => $chatroomId));
+
+        // If chatroom dosent exist do nothing
+        if($chatroom === null){return;}
         // Create Chatroom Object
         $senderId = rand(1, 3);
 
         $now = new \DateTime('NOW');
         $message = new Messages();
-        $message->setChatroom(824);
+        $message->setChatroom($chatroomId);
         $message->setMessage($text);
         $message->setCreatetime($now);
         $message->setSender($senderId);

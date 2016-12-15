@@ -1,3 +1,5 @@
+var currentChatroomId = window.location.pathname.split('/')[2];
+
 $(document).ready(function(){
     $.material.init();
 });
@@ -6,6 +8,10 @@ $(window).load(function(){
     // TODO abfrage integrieren nach aktueller chatraum id
     if($("#chatMessages").length >0){
         loadChatMessages();
+
+        setInterval(function(){
+            loadChatMessages();
+        }, 2000);
     }
 });
 
@@ -14,7 +20,8 @@ function loadChatMessages() {
         url : "/ajax",
         type: "POST",
         data: {
-            ajaxCall: "getMessagesFromChatroom"
+            ajaxCall: "getMessagesFromChatroom",
+            chatId: currentChatroomId
         },
         success: function(html){
             $("#chatMessages").html(html);
@@ -80,12 +87,14 @@ function sendMessage(message) {
     $(".chatbox-input .input-placeholder").css('visibility', 'visible');
     $(".chatbox-input .input").html("");
     if(message.length > 0 && message != " " && message != "&nbsp;") {
+
         $.ajax({
             url: "/ajax",
             type: "POST",
             data: {
                 ajaxCall: "newChatMessage",
-                value: message
+                value: message,
+                chatId: currentChatroomId
             },
             success: function () {
                 loadChatMessages();
