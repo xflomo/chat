@@ -360,6 +360,7 @@ i.material-icons{
     color: #000;
     font-size: 13px;
     font-weight: normal;
+    word-break: break-word;
 }
 
 .message-content .message-user{
