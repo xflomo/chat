@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Chatroom
  *
  * @ORM\Table(name="chatroom", uniqueConstraints={@ORM\UniqueConstraint(name="uid", columns={"uid"}), @ORM\UniqueConstraint(name="id", columns={"id"})})
- * @ORM\Entity(repositoryClass="MainBundle\Repository\ChatroomRepository")
+ * @ORM\Entity
  */
 class Chatroom
 {

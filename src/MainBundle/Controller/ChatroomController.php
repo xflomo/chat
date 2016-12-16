@@ -16,6 +16,14 @@ class ChatroomController extends Controller
      */
     public function chatroomAction ($roomId)
     {
+
+        //TODO gucken ob usersession vorhanden wenn nicht dann user in chatroom eintragen
+        $senderId = rand(1, 3);
+
+
+        //$repositoryUIC = $this->getDoctrine()->getRepository('MainBundle:Userinchatroom');
+        //$chatroom = $repositoryUIC->findOneBy( array('userId' => $senderId, 'chatroomId' => $roomId));
+
         $repository = $this->getDoctrine()->getRepository('MainBundle:Chatroom');
         $chatroom = $repository->findOneBy( array('id' => $roomId));
 
@@ -23,7 +31,6 @@ class ChatroomController extends Controller
         if($chatroom === null){
             return $this->redirectToRoute('defaultAction');
         }
-
 
         return $this->render('MainBundle:default:chatroom.html.twig', array(
             "roomNumber" => $roomId

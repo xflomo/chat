@@ -1,0 +1,42 @@
+<?php
+
+namespace MainBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Userinchatroom
+ *
+ * @ORM\Table(name="userInChatroom")
+ * @ORM\Entity
+ */
+class Userinchatroom
+{
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="joinTime", type="datetime", nullable=false)
+     */
+    private $jointime;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="userId", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="NONE")
+     */
+    private $userid;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="chatroomId", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="NONE")
+     */
+    private $chatroomid;
+
+
+}
+
