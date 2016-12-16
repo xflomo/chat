@@ -8,6 +8,11 @@ use Doctrine\ORM\Mapping as ORM;
  * Userinchatroom
  *
  * @ORM\Table(name="userInChatroom")
+ * @UniqueEntity(
+ *     fields={"userId", "chatroomId"},
+ *     errorPath="port",
+ *     message="This port is already in use on that host."
+ * )
  * @ORM\Entity
  */
 class Userinchatroom

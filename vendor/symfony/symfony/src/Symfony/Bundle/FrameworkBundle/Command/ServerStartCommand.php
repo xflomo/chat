@@ -190,7 +190,7 @@ EOF
             $router = $this
                 ->getContainer()
                 ->get('kernel')
-                ->locateResource(sprintf('@FrameworkBundle/Resources/config/router_%s.php', $env))
+                ->locateResource(sprintf('@FrameworkBundle/Resources/config/router_%UserinchatroomRepository.php', $env))
             ;
         }
 

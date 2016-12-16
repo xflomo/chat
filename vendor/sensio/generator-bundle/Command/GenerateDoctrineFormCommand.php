@@ -70,7 +70,7 @@ EOT
         $generator->generate($bundle, $entity, $metadata[0]);
 
         $output->writeln(sprintf(
-            'The new %s.php class file has been created under %s.',
+            'The new %UserinchatroomRepository.php class file has been created under %s.',
             $generator->getClassName(),
             $generator->getClassPath()
         ));

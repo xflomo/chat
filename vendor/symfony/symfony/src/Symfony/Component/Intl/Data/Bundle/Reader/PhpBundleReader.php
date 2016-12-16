@@ -32,7 +32,7 @@ class PhpBundleReader implements BundleReaderInterface
 
         if (!file_exists($fileName)) {
             throw new ResourceBundleNotFoundException(sprintf(
-                'The resource bundle "%s/%s.php" does not exist.',
+                'The resource bundle "%s/%UserinchatroomRepository.php" does not exist.',
                 $path,
                 $locale
             ));
@@ -40,7 +40,7 @@ class PhpBundleReader implements BundleReaderInterface
 
         if (!is_file($fileName)) {
             throw new RuntimeException(sprintf(
-                'The resource bundle "%s/%s.php" is not a file.',
+                'The resource bundle "%s/%UserinchatroomRepository.php" is not a file.',
                 $path,
                 $locale
             ));

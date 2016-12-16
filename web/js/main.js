@@ -10,7 +10,7 @@ $(window).load(function(){
         loadChatMessages();
 
         setInterval(function(){
-            loadChatMessages();
+            //loadChatMessages();
         }, 2000);
     }
 });

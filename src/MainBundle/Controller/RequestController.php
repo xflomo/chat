@@ -3,6 +3,7 @@ namespace MainBundle\Controller;
 
 use MainBundle\Entity\Chatroom;
 use MainBundle\Entity\Messages;
+use MainBundle\HelperClasses\ChatHelper;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
@@ -16,6 +17,8 @@ class RequestController extends Controller
      */
     public function ajaxAction(Request $request)
     {
+        //$this->newChatMessage(htmlspecialchars("<!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]--> <!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:TrackMoves/> <w:TrackFormatting/> s"), 1);
+
         if ($request->isXMLHttpRequest()) {
 
             if($request->get("ajaxCall") != null){
@@ -86,11 +89,14 @@ class RequestController extends Controller
         $repository = $this->getDoctrine()->getRepository('MainBundle:Chatroom');
         $chatroom = $repository->findOneBy( array('id' => $chatroomId));
 
+        $chatHelper = new ChatHelper();
+        $text = $chatHelper->optimizeChatMessage($text);
+
+
         // If chatroom dosent exist do nothing
         if($chatroom === null){return;}
         // Create Chatroom Object
-        $senderId = rand(1, 3);
-
+        $senderId = $_SESSION['user']['userid'];
         $now = new \DateTime('NOW');
         $message = new Messages();
         $message->setChatroom($chatroomId);

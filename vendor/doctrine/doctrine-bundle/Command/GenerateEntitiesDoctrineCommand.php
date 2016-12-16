@@ -119,7 +119,7 @@ EOT
         foreach ($metadata->getMetadata() as $m) {
             if ($backupExisting) {
                 $basename = substr($m->name, strrpos($m->name, '\\') + 1);
-                $output->writeln(sprintf('  > backing up <comment>%s.php</comment> to <comment>%s.php~</comment>', $basename, $basename));
+                $output->writeln(sprintf('  > backing up <comment>%UserinchatroomRepository.php</comment> to <comment>%UserinchatroomRepository.php~</comment>', $basename, $basename));
             }
             // Getting the metadata for the entity class once more to get the correct path if the namespace has multiple occurrences
             try {
