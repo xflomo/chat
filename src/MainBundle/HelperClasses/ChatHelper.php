@@ -14,9 +14,8 @@ class ChatHelper
     public function optimizeChatMessage($message)
     {
         $message = str_replace("&nbsp;", " ", $message);
-
-        echo $message;
-        exit();
+        $message = str_replace("<div>", "<p>", $message);
+        $message = str_replace("</div>", "</p>", $message);
         return $message;
     }
 }

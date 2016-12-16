@@ -1,6 +1,6 @@
 {% if messages %}
 {% for message in messages %}
-    <div class="chatbox-message-container {% if message.sender == 1 %} my-message {% endif %}">
+    <div class="chatbox-message-container {% if message.sender == userId %} my-message {% endif %}">
         <div class="chatbox-message">
             <div class="message-box">
                 <div class="message-content">

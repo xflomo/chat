@@ -8,9 +8,9 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use Symfony\Component\HttpFoundation\Request;
 
+
 class ChatroomController extends Controller
 {
-
     /**
      * @Route("/chatroom/{roomId}", name="chatroomAction")
      */
@@ -35,6 +35,9 @@ class ChatroomController extends Controller
 
         $repositoryUIC = $this->getDoctrine()->getRepository('MainBundle:Userinchatroom');
         $userinChatroom = $repositoryUIC->findOneBy(array('userid' => $senderId, 'chatroomid' => $roomId));
+        $chatroomsFromUser = $repositoryUIC->findBy(array('userid' => $senderId));
+        $usersInChatroom = $repositoryUIC->findBy(array('chatroomid' => $roomId));
+        $countUsers = count($usersInChatroom);
 
         if($userinChatroom === null){
 
@@ -60,7 +63,9 @@ class ChatroomController extends Controller
 
 
         return $this->render('MainBundle:default:chatroom.html.twig', array(
-            "roomNumber" => $roomId
+            "roomNumber" => $roomId,
+            "userChatrooms" => $chatroomsFromUser,
+            "countUsers" => $countUsers
         ));
     }
 
@@ -90,4 +95,5 @@ class ChatroomController extends Controller
             }
         }
     }
+
 }

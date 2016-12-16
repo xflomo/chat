@@ -17,6 +17,8 @@ class RequestController extends Controller
      */
     public function ajaxAction(Request $request)
     {
+
+        //$this->getMessagesFromChatroom("56332");
         //$this->newChatMessage(htmlspecialchars("<!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]--> <!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:TrackMoves/> <w:TrackFormatting/> s"), 1);
 
         if ($request->isXMLHttpRequest()) {
@@ -80,7 +82,8 @@ class RequestController extends Controller
         $messages = $repository->findBy( array('chatroom' => $chatroomId));
         echo $this->removeHeaderFromTwigTemplate(
             $this->render('MainBundle:ajax:chatroom-message-content.html.twig', array(
-                "messages" => $messages
+                "messages" => $messages,
+                "userId" =>$_SESSION['user']['userid']
             ))
         );
     }

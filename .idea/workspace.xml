@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b72ab2-a2cf-4e83-9ba9-a06ee1a8c199" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/HelperClasses/ChatHelper.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_584301339568486a35e53132c47c3ef3" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Controller/ChatroomController.php" afterPath="$PROJECT_DIR$/src/MainBundle/Controller/ChatroomController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Controller/RequestController.php" afterPath="$PROJECT_DIR$/src/MainBundle/Controller/RequestController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Entity/Userinchatroom.php" afterPath="$PROJECT_DIR$/src/MainBundle/Entity/Userinchatroom.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Command/GenerateEntitiesDoctrineCommand.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Command/GenerateEntitiesDoctrineCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateDoctrineFormCommand.php" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateDoctrineFormCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ServerRunCommand.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ServerRunCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ServerStartCommand.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ServerStartCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/PhpBundleReader.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/PhpBundleReader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/HelperClasses/ChatHelper.php" afterPath="$PROJECT_DIR$/src/MainBundle/HelperClasses/ChatHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Resources/views/ajax/chatroom-message-content.html.twig" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/ajax/chatroom-message-content.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
     </list>
     <ignored path="Projekttool-symfony.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,18 +32,18 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4395">
-              <caret line="293" column="15" selection-start-line="293" selection-start-column="15" selection-end-line="293" selection-end-column="15" />
+            <state relative-caret-position="174">
+              <caret line="318" column="20" selection-start-line="318" selection-start-column="20" selection-end-line="318" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RequestController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/RequestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="690">
+              <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
               <folding>
                 <element signature="e#40#71#0#PHP" expanded="true" />
               </folding>
@@ -58,21 +51,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatHelper.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChatHelper.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainBundle/HelperClasses/ChatHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/main.js">
+      <file leaf-file-name="chatroom-message-content.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/ajax/chatroom-message-content.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="30">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatroom.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -81,8 +84,8 @@
       <file leaf-file-name="ChatroomController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/ChatroomController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="99">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#41#78#0#PHP" expanded="true" />
               </folding>
@@ -146,17 +149,17 @@
         <option value="$PROJECT_DIR$/src/MainBundle/HelperClasses/ChatroomHelper.php" />
         <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/chat/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/MainBundle/Entity/Chatroom.php" />
-        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig" />
-        <option value="$PROJECT_DIR$/web/css/main.css" />
-        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/ajax/chatroom-message-content.html.twig" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/MainBundle/Entity/UserInChatroom.php" />
         <option value="$PROJECT_DIR$/src/MainBundle/Repository/UserinchatroomRepository.php" />
         <option value="$PROJECT_DIR$/src/MainBundle/Entity/Userinchatroom.php" />
         <option value="$PROJECT_DIR$/web/js/main.js" />
-        <option value="$PROJECT_DIR$/src/MainBundle/Controller/ChatroomController.php" />
-        <option value="$PROJECT_DIR$/src/MainBundle/HelperClasses/ChatHelper.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig" />
         <option value="$PROJECT_DIR$/src/MainBundle/Controller/RequestController.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/ajax/chatroom-message-content.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/main.css" />
+        <option value="$PROJECT_DIR$/src/MainBundle/HelperClasses/ChatHelper.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Controller/ChatroomController.php" />
       </list>
     </option>
   </component>
@@ -349,6 +352,114 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Repository" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -372,6 +483,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="HelperClasses" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projekttool-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -555,12 +688,12 @@
       <workItem from="1481729709091" duration="14597000" />
       <workItem from="1481787733621" duration="212000" />
       <workItem from="1481827343769" duration="3162000" />
-      <workItem from="1481872937411" duration="5048000" />
+      <workItem from="1481872937411" duration="7968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127310000" />
+    <option name="totallyTimeSpent" value="130230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,25 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../projekttool-symfony/src/MainBundle/Resources/views/ajaxTemplates/kalenderContent.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="136" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4395">
-          <caret line="293" column="15" selection-start-line="293" selection-start-column="15" selection-end-line="293" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,14 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/ajax/chatroom-message-content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -884,16 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/ChatroomController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding>
-            <element signature="e#41#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -926,21 +1026,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/HelperClasses/ChatHelper.php">
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="174">
+          <caret line="318" column="20" selection-start-line="318" selection-start-column="20" selection-end-line="318" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/RequestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="690">
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
           <folding>
             <element signature="e#40#71#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/ChatroomController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/chatroom.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/ajax/chatroom-message-content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/HelperClasses/ChatHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

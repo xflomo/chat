@@ -15,39 +15,21 @@
             <div class="nav-main-conainter">
                 <div class="bs-component">
                     <div class="list-group">
-                        <div class="list-group-item">
-                            <div class="row-picture">
-                                <i class="material-icons">chat</i>
-                            </div>
-                            <div class="row-content">
-                                <h4 class="list-group-item-heading">Chatraum: 12345</h4>
+                        {% if userChatrooms %}
+                            {% for chatroom in userChatrooms %}
+                                <div class="list-group-item">
+                                    <div class="row-picture">
+                                        <i class="material-icons">chat</i>
+                                    </div>
+                                    <div class="row-content">
+                                        <h4 class="list-group-item-heading">Chatraum: {{ chatroom.chatroomId }}</h4>
 
-                                <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus</p>
-                            </div>
-                        </div>
-                        <div class="list-group-separator"></div>
-                        <div class="list-group-item">
-                            <div class="row-picture">
-                                <i class="material-icons">chat</i>
-                            </div>
-                            <div class="row-content">
-                                <h4 class="list-group-item-heading">Chatraum: 1233</h4>
-
-                                <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
-                            </div>
-                        </div>
-                        <div class="list-group-separator"></div>
-                        <div class="list-group-item">
-                            <div class="row-picture">
-                                <i class="material-icons">chat</i>
-                            </div>
-                            <div class="row-content">
-                                <h4 class="list-group-item-heading">Chatraum 12345</h4>
-
-                                <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus</p>
-                            </div>
-                        </div>
-                        <div class="list-group-separator"></div>
+                                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus</p>
+                                    </div>
+                                </div>
+                                <div class="list-group-separator"></div>
+                            {% endfor %}
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -82,7 +64,7 @@
                 <div class="online-users">
                     <i class="material-icons">people</i>
                     <p>
-                        10
+                        {{ countUsers }}
                     </p>
                 </div>
                 <div class="chatroom-controlls">
